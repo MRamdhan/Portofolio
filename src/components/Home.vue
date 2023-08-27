@@ -10,7 +10,7 @@
           <!-- Kolom Gambar -->
           <div class="col-md-6 mb-4 order-md-2">
             <div class="flex justify-center md:justify-start fadein-right">
-              <img src="img/avatar.jpeg" alt="avatar" fetchpriority="high" decoding="async" data-nimg="1"
+              <img src="https://64.media.tumblr.com/9a21f61748489d994f96d42aad296ee7/0a2a8e9874ab4aca-b0/s1280x1920/eb7c52b8535ae4627d6358785e06e30e7b2c1a62.jpg" alt="avatar" fetchpriority="high" decoding="async" data-nimg="1"
                 style="width: 80%; max-width: 200%; border-radius: 50%; margin: 0 auto 20px; display: block;"
                 class="rounded-circle pict">
             </div>
@@ -36,8 +36,6 @@
   </div>
 </main>
 
-
-
   <!-- About -->
   <div style="background-color: #242629; padding: 15px;color: #fffffe; max-width: 100%;">
   <article data-page="about">
@@ -49,7 +47,7 @@
     </header>
     <section style="font-size: 0.875rem; text-align: justify; animation: fadeInUp 0.5s ease-out forwards;">
       <div style="display: flex; justify-content: center;">
-        <img style="width: 75%; max-width: 300px; border-radius: 50%; animation: fadein-up 0.5s; margin-bottom: 0.75rem;" src="img/avatar.jpeg" alt="Foto">
+        <img style="width: 75%; max-width: 300px; border-radius: 50%; animation: fadein-up 0.5s; margin-bottom: 0.75rem;" src="https://seeklogo.com/images/M/moon-knight-logo-92BCF23492-seeklogo.com.png" alt="Foto">
       </div>
       <div style="width: 100%; font-size: 1rem;">
         <p style="margin-bottom: 1rem; animation: fadein-left 0.5s forwards; padding: 20px;">
@@ -69,7 +67,6 @@
     </section>
   </article>
 </div>
-
 
   <!-- Card Skills -->
   <div class="page-container">

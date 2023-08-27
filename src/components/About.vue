@@ -1,9 +1,8 @@
 <template>
     <Nav />
-    <main>
+    <!-- <main>
         <div id="about" class="main-container no-scroll" style="overflow: hidden">
             <div class="d-flex justify-content-center align-items-center min-vh-100">
-                <!-- Card Besar -->
                 <div class="card-container">
                     <div class="card" style="background-color: #1e1e1f; padding: 20px; border-radius: 10px;">
                         <div class="card-header">
@@ -34,7 +33,6 @@
             </div>
         </div>
 
-        <!-- Card Skills -->
         <div class="page-container">
         <div class="custom-card">
         <article data-page="about">
@@ -62,12 +60,11 @@
                         </div>
                     </div>
                 </div>
-                    <!-- ... (Similar section for activeTab === 2) ... -->
                 </section>
             </article>
         </div>
         </div>
-    </main>
+    </main> -->
 </template>
 
 <script setup>
@@ -75,7 +72,7 @@ import Nav from '../components/layout/nav.vue'
 </script>
 
 <style scoped>
-main,
+/* main,
 #about {
     background-color: #0f0e17;
 }
@@ -252,65 +249,65 @@ p {
     align-items: center;
     background-color: #0f0e17;
     min-height: 20vh;
-}
+} */
 </style>
 
-<script>
-export default {
-    data() {
-        return {
-            activeTab: 1,
-            tech: [
-                {
-                    id: 1,
-                    name: 'CONTOH UPDATE',
-                    imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-                    status: 'Advanced'
-                },
-                {
-                    id: 2,
-                    name: 'CSS',
-                    imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-                    status: 'Advanced'
-                },
-                {
-                    id: 3,
-                    name: 'Laravel',
-                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-                    status: 'Advance'
-                },
-                {
-                    id: 4,
-                    name: 'VueJS',
-                    imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-                    status: 'Intermediate'
-                },
-                {
-                    id: 5,
-                    name: 'Tailwind',
-                    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-                    status: 'Advance'
-                },
-                {
-                    id: 6,
-                    name: 'Bootstrap',
-                    imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-                    status: 'Intermediate'
-                },
-                {
-                    id: 7,
-                    name: 'Python',
-                    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
-                    status: 'Beginner'
-                },
-                {
-                    id: 8,
-                    name: 'C#',
-                    imageUrl: 'https://storage.googleapis.com/kotakode-prod-public/images/716ae909-105b-4e00-82fc-584187b5aecf-pngegg.png',
-                    status: 'Beginner'
-                },
-            ],
-        };
-    }
-}
-</script>
+// <script>
+// export default {
+//     data() {
+//         return {
+//             activeTab: 1,
+//             tech: [
+//                 {
+//                     id: 1,
+//                     name: 'CONTOH UPDATE',
+//                     imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+//                     status: 'Advanced'
+//                 },
+//                 {
+//                     id: 2,
+//                     name: 'CSS',
+//                     imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+//                     status: 'Advanced'
+//                 },
+//                 {
+//                     id: 3,
+//                     name: 'Laravel',
+//                     imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
+//                     status: 'Advance'
+//                 },
+//                 {
+//                     id: 4,
+//                     name: 'VueJS',
+//                     imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
+//                     status: 'Intermediate'
+//                 },
+//                 {
+//                     id: 5,
+//                     name: 'Tailwind',
+//                     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+//                     status: 'Advance'
+//                 },
+//                 {
+//                     id: 6,
+//                     name: 'Bootstrap',
+//                     imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
+//                     status: 'Intermediate'
+//                 },
+//                 {
+//                     id: 7,
+//                     name: 'Python',
+//                     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
+//                     status: 'Beginner'
+//                 },
+//                 {
+//                     id: 8,
+//                     name: 'C#',
+//                     imageUrl: 'https://storage.googleapis.com/kotakode-prod-public/images/716ae909-105b-4e00-82fc-584187b5aecf-pngegg.png',
+//                     status: 'Beginner'
+//                 },
+//             ],
+//         };
+//     }
+// }
+// </script>
