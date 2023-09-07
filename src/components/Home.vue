@@ -150,7 +150,7 @@ export default {
           id: 3,
           title: 'E-Certificate',
           description: 'This is a website that was created when I was doing PKL. this website to generate E-Certificates automatically.to make it easier for users to create E-certificates',
-          technologies: 'VueJS 3, Laravel API, Bootstrap 5',
+          technologies: 'VueJS 3, Python API, Bootstrap 5',
           imageUrl: 'img/sertifikat.jpeg'
         },
         {
@@ -180,7 +180,7 @@ export default {
       tech: [
         {
           id: 1,
-          name: 'CONTOH UPDATE',
+          name: 'HTML5',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
           status: 'Advanced'
         },
