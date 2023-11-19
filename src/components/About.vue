@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-import Nav from '../components/layout/nav.vue'
+// import Nav from '../components/layout/nav.vue'
 </script>
 
 <style scoped>
