@@ -250,18 +250,11 @@ export default {
         },
         {
           id: 3,
-<<<<<<< HEAD
-          title: 'E-Certificate',
-          description: 'This is a website that was created when I was doing PKL. this website to generate E-Certificates automatically.to make it easier for users to create E-certificates',
-          technologies: 'VueJS 3, Python API, Tailwind',
-          imageUrl: 'img/sertifikat.jpeg'
-=======
           title: "E-Certificate",
           description:
             "This is a website that was created when I was doing PKL. this website to generate E-Certificates automatically.to make it easier for users to create E-certificates",
           technologies: "VueJS 3, Python API, Tailwind",
           imageUrl: "img/sertifikat.jpeg",
->>>>>>> a9591f1 (Update)
         },
         {
           id: 4,
@@ -281,34 +274,6 @@ export default {
         },
         {
           id: 6,
-<<<<<<< HEAD
-          title: 'Portofolio',
-          description: 'My personal website, I created this website to display a profile about me and the skills I have',
-          technologies: 'VueJS 3, Tailwind',
-          imageUrl: 'img/porto.jpeg'
-        },
-        {
-          id: 7,
-          title: 'Toko Online',
-          description: 'I was given the task of creating an online shop website from my school, this website can be used to sell goods or buy goods available on this website',
-          technologies: 'Laravel, Bootstrap 5',
-          imageUrl: 'img/online.png'
-        },
-        {
-          id:8,
-          title: 'Destinasi',
-          description: 'a simple website, I was given the task of creating a destination for my school, this website can see what tourist destinations are on this website',
-          technologies: 'Laravel, Boostrap 5',
-          imageUrl: 'img/destinasi.png',
-        },
-        {
-          id:9,
-          title: 'Web Sekolah',
-          description: 'The students were given the task of creating a website for the school, this website is for information about this school',
-          technologies: 'Wordpress',
-          imageUrl:'img/skul.png',
-        }
-=======
           title: "Portofolio",
           description:
             "My personal website, I created this website to display a profile about me and the skills I have",
@@ -339,21 +304,14 @@ export default {
           technologies: "Wordpress",
           imageUrl: "img/skul.png",
         },
->>>>>>> a9591f1 (Update)
       ],
       activeTab: 1,
       tech: [
         {
           id: 1,
-<<<<<<< HEAD
-          name: 'HTML 5',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
-=======
           name: "HTML 5",
           imageUrl: "https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
           status: "Advanced",
->>>>>>> a9591f1 (Update)
         },
         {
           id: 2,
