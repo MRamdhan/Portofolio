@@ -125,7 +125,7 @@
             Sukabumi, and my major is Rekayasa Prangkat Lunak (RPL)
           </p>
           <p style="animation: fadein-left 0.5s forwards; padding: 20px">
-            I dream of becoming a programmer who can bring people, more
+            My dream of becoming a programmer who can bring people, more
             specifically students, to like the world of programming, I am still
             learning here too. With the aim of making this web portfolio, I want
             to practice my programming skills. That's all my description and
@@ -293,7 +293,7 @@ export default {
           title: "Destinasi",
           description:
             "a simple website, I was given the task of creating a destination for my school, this website can see what tourist destinations are on this website",
-          technologies: "Laravel, Boostrap 5",
+          technologies: "Laravel, Bootstrap 5",
           imageUrl: "img/destinasi.png",
         },
         {
@@ -303,6 +303,14 @@ export default {
             "The students were given the task of creating a website for the school, this website is for information about this school",
           technologies: "Wordpress",
           imageUrl: "img/skul.png",
+        },
+        {
+          id: 10,
+          title: "Mobil Bersih",
+          description:
+            "a website to make it easier for a car wash cashier and make it easier for the owner to view car wash transaction data",
+          technologies: "Laravel, Bootstrap 5",
+          imageUrl: "img/carwash.png",
         },
       ],
       activeTab: 1,
