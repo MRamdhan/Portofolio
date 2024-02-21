@@ -18,7 +18,7 @@
             <div class="col-md-6 mb-4 order-md-2">
               <div class="flex justify-center md:justify-start fadein-right">
                 <img
-                  src="https://64.media.tumblr.com/9a21f61748489d994f96d42aad296ee7/0a2a8e9874ab4aca-b0/s1280x1920/eb7c52b8535ae4627d6358785e06e30e7b2c1a62.jpg"
+                  src="img/pp2.JPG"
                   alt="avatar"
                   fetchpriority="high"
                   decoding="async"
@@ -99,7 +99,7 @@
           animation: fadeInUp 0.5s ease-out forwards;
         "
       >
-        <div style="display: flex; justify-content: center">
+        <!-- <div style="display: flex; justify-content: center">
           <img
             style="
               width: 75%;
@@ -108,23 +108,22 @@
               animation: fadein-up 0.5s;
               margin-bottom: 0.75rem;
             "
-            src="https://seeklogo.com/images/M/moon-knight-logo-92BCF23492-seeklogo.com.png"
+            src="img"
             alt="Foto"
           />
-        </div>
+        </div> -->
         <div style="width: 100%; font-size: 1rem">
           <p
             style="
-              margin-bottom: 1rem;
               animation: fadein-left 0.5s forwards;
               padding: 20px;
             "
           >
             Hi everybody! My name is Mochamad Ramdhan Irawan. I am Student from
             Sukabumi City, West Java. I, I am a class 12 student at SMKN2
-            Sukabumi, and my major is Rekayasa Prangkat Lunak (RPL)
-          </p>
-          <p style="animation: fadein-left 0.5s forwards; padding: 20px">
+            Sukabumi, and my major is Rekayasa Prangkat Lunak (RPL).
+            <br> 
+            <br>
             My dream of becoming a programmer who can bring people, more
             specifically students, to like the world of programming, I am still
             learning here too. With the aim of making this web portfolio, I want
