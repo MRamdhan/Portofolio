@@ -18,7 +18,7 @@
             <div class="col-md-6 mb-4 order-md-2">
               <div class="flex justify-center md:justify-start fadein-right">
                 <img
-                  src="img/pp2.JPG"
+                  src="img/pp2.png"
                   alt="avatar"
                   fetchpriority="high"
                   decoding="async"
