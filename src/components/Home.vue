@@ -1,54 +1,40 @@
 <template>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-    crossorigin="anonymous"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!-- Bagian Utama -->
   <main>
     <div id="home" style="overflow: hidden">
-      <div
-        class="d-flex justify-content-center align-items-center"
-        style="min-height: 100vh"
-      >
+      <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh">
         <div class="container">
           <div class="row align-items-center">
             <!-- Kolom Gambar -->
             <div class="col-md-6 mb-4 order-md-2">
               <div class="flex justify-center md:justify-start fadein-right">
-                <img
-                  src="img/pp2.png"
-                  alt="avatar"
-                  fetchpriority="high"
-                  decoding="async"
-                  data-nimg="1"
-                  style="
+                <img :src="profile" alt="avatar" fetchpriority="high" decoding="async" data-nimg="1" style="
                     width: 80%;
                     max-width: 200%;
                     border-radius: 50%;
                     margin: 0 auto 20px;
                     display: block;
-                  "
-                  class="rounded-circle pict"
-                />
+                  " class="rounded-circle pict" />
+                  <!-- <img alt="HTML" loading="lazy" :src="item.imageUrl" class="custom-img" /> -->
               </div>
             </div>
             <div class="col-md-6">
               <div class="text-center text-md-left">
-                <h5 style="color: #fffffe;"> <b>Hello, I'm</b> </h5>
-                <h1
-                  class="text-large"
-                  style="color: #ff8906; margin-bottom: 1rem"
-                >
-                  <span style="font-size: 4rem; font: bold;"> <b>{{ nama }}</b> </span>
+                <h5 style="color: #fffffe"><b>Hello, I'm</b></h5>
+                <h1 class="text-large" style="color: #ff8906; margin-bottom: 1rem">
+                  <span style="font-size: 4rem; font: bold">
+                    <b>{{ nama }}</b>
+                  </span>
                 </h1>
                 <div>
                   <h1
                     class="typewrite text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-600 text-white md:text-2xl fadein-up"
-                    ref="typewriter"
-                  >
-                    <span class="wrap"> <b>{{ txt }}</b> </span>
+                    ref="typewriter">
+                    <span class="wrap">
+                      <b>{{ txt }}</b>
+                    </span>
                   </h1>
                 </div>
               </div>
@@ -60,75 +46,41 @@
   </main>
 
   <!-- About -->
-  <div
-    style="
-      background-color: #242629;
-      padding: 15px;
-      color: #fffffe;
-      max-width: 100%;
-    "
-  >
+  <div style="background-color: #242629; padding: 15px; color: #fffffe; max-width: 100%">
     <article data-page="about">
       <header>
-        <div
-          style="
+        <div style="
             font-size: 1.25rem;
             font-weight: bold;
             color: white;
             margin-bottom: 1rem;
             animation: fadeInLeft 0.5s ease-out forwards;
-          "
-        >
+          ">
           About Me &nbsp;
-          <div
-            style="
+          <div style="
               height: 1px;
               width: 96px;
               background-color: #ff8906;
               animation: zoom-in-left 0.6s;
-            "
-            data-aos="zoom-in-left"
-            data-aos-duration="600"
-          ></div>
+            " data-aos="zoom-in-left" data-aos-duration="600"></div>
         </div>
       </header>
-      <section
-        style="
+      <section style="
           font-size: 0.875rem;
           text-align: justify;
           animation: fadeInUp 0.5s ease-out forwards;
-        "
-      >
-        <!-- <div style="display: flex; justify-content: center">
-          <img
-            style="
-              width: 75%;
-              max-width: 300px;
-              border-radius: 50%;
-              animation: fadein-up 0.5s;
-              margin-bottom: 0.75rem;
-            "
-            src="img"
-            alt="Foto"
-          />
-        </div> -->
+        ">
         <div style="width: 100%; font-size: 1rem">
-          <p
-            style="
-              animation: fadein-left 0.5s forwards;
-              padding: 20px;
-            "
-          >
-            Hi everybody! My name is Mochamad Ramdhan Irawan. I am Student from
-            Sukabumi City, West Java. I, I am a class 12 student at SMKN2
-            Sukabumi, and my major is Rekayasa Prangkat Lunak (RPL).
-            <br> 
-            <br>
-            My dream of becoming a programmer who can bring people, more
-            specifically students, to like the world of programming, I am still
-            learning here too. With the aim of making this web portfolio, I want
-            to practice my programming skills. That's all my description and
-            goals, Thank you ALL!!
+          <p style="animation: fadein-left 0.5s forwards; padding: 20px">
+            Hi everybody! My name is Mochamad Ramdhan Irawan. I am Student from Sukabumi
+            City, West Java. I, I am a class 12 student at SMKN2 Sukabumi, and my major is
+            Rekayasa Prangkat Lunak (RPL).
+            <br />
+            <br />
+            My dream of becoming a programmer who can bring people, more specifically
+            students, to like the world of programming, I am still learning here too. With
+            the aim of making this web portfolio, I want to practice my programming
+            skills. That's all my description and goals, Thank you ALL!!
           </p>
         </div>
       </section>
@@ -144,16 +96,12 @@
             <h3 class="custom-title">
               <div class="custom-title-line"></div>
               Skills
-              <div
-                style="
+              <div style="
                   height: 1px;
                   width: 96px;
                   background-color: #ff8906;
                   animation: zoom-in-left 0.6s;
-                "
-                data-aos="zoom-in-left"
-                data-aos-duration="600"
-              ></div>
+                " data-aos="zoom-in-left" data-aos-duration="600"></div>
             </h3>
           </div>
         </header>
@@ -163,12 +111,7 @@
             <div class="custom-grid">
               <div v-for="item in tech" :key="item.id" class="custom-item">
                 <div class="custom-img-container">
-                  <img
-                    alt="HTML"
-                    loading="lazy"
-                    :src="item.imageUrl"
-                    class="custom-img"
-                  />
+                  <img alt="HTML" loading="lazy" :src="item.imageUrl" class="custom-img" />
                 </div>
                 <div class="custom-text">
                   <div class="custom-tech">{{ item.name }}</div>
@@ -186,29 +129,19 @@
     <div style="background-color: #242629">
       <div id="portofolio">
         <div class="d-flex justify-content-center align-items-center min-vh-80">
-          <h1
-            style="
+          <h1 style="
               padding-top: 30px;
               font-family: Arial, Helvetica, sans-serif;
               color: #ff8906;
-            "
-          >
+            ">
             <b> Projects that I've made </b>
           </h1>
         </div>
         <div class="container mt-5">
           <div class="row">
-            <div
-              v-for="project in projects"
-              :key="project.id"
-              class="col-12 col-md-6 col-lg-4 mb-4"
-            >
+            <div v-for="project in projects" :key="project.id" class="col-12 col-md-6 col-lg-4 mb-4">
               <div class="card">
-                <img
-                  class="card-img-top"
-                  :src="project.imageUrl"
-                  alt="Card image cap"
-                />
+                <img class="card-img-top" :src="project.imageUrl" alt="Card image cap" />
                 <div class="card-body">
                   <h5 class="card-title">{{ project.title }}</h5>
                   <hr style="height: 1px" />
@@ -230,6 +163,9 @@
 export default {
   data() {
     return {
+    // profile : [{
+    //   img: "img/pp2.jpg"
+    // }],
       projects: [
         {
           id: 1,
@@ -258,8 +194,7 @@ export default {
         {
           id: 4,
           title: "Snake Game",
-          description:
-            "a simple snake game website, to train me to learn javascript",
+          description: "a simple snake game website, to train me to learn javascript",
           technologies: "Javascript",
           imageUrl: "img/ular.jpeg",
         },
@@ -368,6 +303,7 @@ export default {
         },
       ],
       toRotate: ["Frontend Developer", "UI/UX Designer ", "Student"],
+      profile: "img/pp2.jpg",
       period: 2000,
       txt: "as",
       nama: "MRamdhan",
@@ -526,10 +462,12 @@ main,
   .card-container {
     padding: 20px;
   }
+
   .circle-image-container {
     padding: 15px;
   }
 }
+
 .card-container {
   margin-top: 30px;
   margin-left: 150px;
@@ -630,6 +568,7 @@ p {
 .fadeins-2 {
   animation-delay: 800ms;
 }
+
 .img-tech,
 .tech {
   transition: transform 0.3s ease;
@@ -727,6 +666,7 @@ p {
   background-color: #16161a;
   min-height: 50vh;
 }
+
 .form-container {
   min-height: 100vh;
 }
