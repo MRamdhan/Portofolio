@@ -72,11 +72,7 @@
         ">
         <div style="width: 100%; font-size: 1rem">
           <p style="animation: fadein-left 0.5s forwards; padding: 20px">
-            Hi everybody! My name is Mochamad Ramdhan Irawan. I am Student from Sukabumi
-            City, West Java. I, I am a class 12 student at SMKN2 Sukabumi, and my major is
-            Rekayasa Prangkat Lunak (RPL).
-            <br />
-            <br />
+            Hi all! My name is Mochamad Ramdhan Irawan. On my portfolio website, I attach my skills and the projects I have created.
             My dream of becoming a programmer who can bring people, more specifically
             students, to like the world of programming, I am still learning here too. With
             the aim of making this web portfolio, I want to practice my programming
